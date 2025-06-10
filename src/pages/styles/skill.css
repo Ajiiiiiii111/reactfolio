@@ -1,0 +1,77 @@
+/* Center the header text */
+.header-skill {
+    text-align: center;
+}
+
+/* Container styling */
+.container-skill {
+    padding-top: 30px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(94, 132, 197);
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Grid layout for skills */
+.skill {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Responsive columns */
+    gap: 20px;
+    justify-items: center;
+    width: 100%;
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    color: black;
+    padding: 20px;
+}
+
+/* Skill item styling */
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill-item img {
+    width: 160px;     /* reduced from 300px */
+    height: 130px;    /* reduced from 250px */
+    object-fit:fill;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(81, 154, 255, 0.5);
+    margin-top: 10px;
+}
+
+/* Certificate section */
+.certificate {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.certi h2 {
+    margin-bottom: 10px;
+}
+
+.certi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certi img {
+    width: 250px;     /* reduced from 330px */
+    height: 260px;    /* reduced from 350px */
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0 0 10px rgba(81, 154, 255, 0.5);
+    margin-top: 10px;
+}

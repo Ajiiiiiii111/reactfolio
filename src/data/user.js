@@ -1,82 +1,84 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Alexander Fernandez",
+		name: "Alexander Fernandez",
+		email: "fernandezalexander1107@gmail.com",
+		logo: "../Alogo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/Ajiiiiiii111",
+		instagram: "https://www.instagram.com/_ajiiiii/",
+		facebook: "https://www.facebook.com/im.ajifernandez",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Full-stack web developer with a passion for building responsive, user-focused applications.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Proficient full-stack web developer with hands-on experience in building responsive websites and web applications. Comfortable working on both front-end and back-end technologies, and capable of creating clean, functional, and user-friendly solutions.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "Hi, My name is Alexander James Ian J. Fernandez.",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
-	},
-
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"I'm currently studying as a 3rd year college student in Cavite State University Bacoor Campus. I'm a Computer Science student with a focus on web development. I have a strong foundation in programming languages such as Java, Python, and JavaScript, and I'm proficient in using frameworks like React and Node.js. I am a very positive person. I always smile even if there is a problem because for me, being positive can make big changes not just by on yourself but to the people around you. In my free time, I enjoy exploring new programming languages, contributing to open-source projects, and staying updated with the latest trends in web development.",
 	},
 
 	projects: [
 		{
-			title: "Project 1",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 2",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+			title: "Cvsu Website",
+			description: "This Project is make a website for our school.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Ajiiiiiii111/cvsuwebsite111",
 		},
 
 		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			title: "Zyntax",
+			description: "This Project is make a It Company Website.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://l.facebook.com/l.php?u=https%3A%2F%2Fpichapie234.github.io%2FZyntaxx%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2ncgX6-TfqF2MumZ9T6OdyNLa5yS7v9bxLQQufyxp0YUke_XxSOaWkanQ_aem_24FDMHoRkvvT5Wcb-BPzag&h=AT0vTsqB_LU98OwCZYxgBE4Kojsb6ZTj1ZIPOGLIOLKNj6g2PnxUJ_90kNvhQvq5Rn7TGR7RyYeG42fZ_NuwCCgtn0NXIMocB1hhQssv6Hz4PnqwDMcVjzGVuHA5-GR4i8B2h-7x3BIdSxWJVpbtpw",
+		},
+
+		{
+			title: "Zen Store",
+			description: "This project is Inventory Management System.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			title: "Michiel's Beauty",
+			description: "This project is Inventory Management System.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com",
+		},
+
+		{
+			title: "Enrollment System",
+			description: "This project is for our school enrollment System.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://github.com/jeraldlabalan/Enrollment-System",
+		},
+		{
+			title: "Finding NeedMo",
+			description:
+				"This project is a a repository for teachers and students.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://github.com/jeraldlabalan/finding-needmo-project",
+		},
+		{
+			title: "Case Reporting System",
+			description:
+				"This project is a Case reporting in school violation.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://github.com/Ajiiiiiii111/Case-Reporting",
 		},
 	],
 };

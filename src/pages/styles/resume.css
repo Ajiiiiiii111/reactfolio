@@ -1,0 +1,31 @@
+.resume-card {
+	background-color: #f3f3f3;
+	padding: 20px;
+	border-radius: 16px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-top: 40px;
+}
+
+.resume-buttons {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.resume-button {
+	background-color: #5e84c5;
+	color: white;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: bold;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+	transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+	background-color: #3e64a0;
+}

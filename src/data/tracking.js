@@ -1,3 +1,3 @@
 // Google Analytics Tracking ID
-// https://github.com/truethari/reactfolio#-google-analytics
+// https://github.com/Ajiiiiiii111/reactfolio#-google-analytics
 export const TRACKING_ID = "";
