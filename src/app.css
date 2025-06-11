@@ -18,7 +18,7 @@
 }
 
 .page-content {
-	background-color: white;
+	background-color: rgb(241, 241, 241);
 	position: relative;
 }
 
@@ -29,7 +29,7 @@
 	top: 0;
 	bottom: 0;
 	width: calc((100% - 1200px) / 2);
-	background-color: #fafafa;
+	background-color: #c6dde3;
 	border: 1px solid #f4f4f5;
 }
 

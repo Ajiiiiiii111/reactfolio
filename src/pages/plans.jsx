@@ -13,28 +13,24 @@ const futurePlans = [
 	{
 		title: "Building a Professional Career",
 		description:
-			"My immediate goal is to apply the skills and knowledge I’ve gained to a dynamic and growth-oriented work environment. I’m particularly interested in software development, where I can contribute meaningfully while continuing to learn and grow professionally.",
+			"My immediate goal is to apply the skills and knowledge I’ve gained to a dynamic and growth-oriented work environment. I’m particularly interested in web development, where I can contribute meaningfully while continuing to learn and grow professionally.",
 	},
 	{
 		title: "Continuing Education and Skill Development",
 		description:
-			"Learning doesn’t stop at graduation. I plan to pursue certifications, attend workshops, and explore postgraduate opportunities to deepen my expertise in UI/UX design and data analytics. Staying current and adaptable is key in today’s fast-changing world.",
+			"Learning doesn’t stop at graduation. I plan to pursue certifications, attend workshops, and explore postgraduate opportunities to deepen my expertise. Staying current and adaptable is key in today’s fast-changing world.",
 	},
 	{
 		title: "Giving Back and Mentoring",
 		description:
-			"I also hope to give back to my community — whether through mentorship, volunteering, or supporting causes that matter to me. I believe success means little unless it uplifts others along the way.",
+			"I also hope to give back to my community whether through mentorship, volunteering, or supporting causes that matter to me. I believe success means little unless it uplifts others along the way.",
 	},
 	{
 		title: "Personal Growth and Balance",
 		description:
-			"Beyond work, I aim to maintain a balanced life that prioritizes health, creativity, and meaningful relationships. Whether through travel, hobbies, or side projects, I want to keep growing as a whole person — not just a professional.",
+			"Beyond work, I aim to maintain a balanced life that prioritizes health, creativity, and meaningful relationships. Whether through travel, hobbies, or side projects, I want to keep growing as a whole person not just a professional.",
 	},
-	{
-		title: "Long-Term Vision",
-		description:
-			"In the long run, I aspire to launch my own startup. Every step I take now is part of that broader journey toward creating something impactful and innovative.",
-	},
+	
 ];
 
 const FuturePlans = () => {

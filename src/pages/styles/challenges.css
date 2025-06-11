@@ -23,7 +23,7 @@
 }
 
 .challenge-item h2 {
-	color: rgb(94, 132, 197);
+	color: rgb(8, 90, 231);
 	margin-bottom: 10px;
 }
 
@@ -33,16 +33,4 @@
 	margin-bottom: 20px;
 }
 
-.join-button {
-	padding: 8px 16px;
-	border: none;
-	border-radius: 8px;
-	background-color: rgb(94, 132, 197);
-	color: white;
-	cursor: pointer;
-	transition: background-color 0.3s ease;
-}
 
-.join-button:hover {
-	background-color: rgb(60, 100, 170);
-}
