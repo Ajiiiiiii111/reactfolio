@@ -90,7 +90,7 @@ const Skill = () => {
 								<h2>Certificates</h2>
 								<p>Dean's Lister</p>
 								<img src="cert.png" alt="Dean's Lister" />
-								<h2>Other is ongoing.</h2>
+								
 							</div>
 						</div>
 					</div>
