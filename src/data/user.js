@@ -15,7 +15,7 @@ const INFO = {
 	homepage: {
 		title: "Web developer with a passion for building responsive, user-focused applications.",
 		description:
-			"Proficient web developer with hands-on experience in building responsive websites and web applications. Comfortable working on front-end and capable of creating clean, functional, and user-friendly solutions.",
+			"Proficient web developer with hands-on experience in building responsive websites and web applications. Comfortable working on front-end and capable of creating clean, functional, and user-friendly website.",
 	},
 
 	about: {
@@ -39,7 +39,7 @@ const INFO = {
 	projects: [
 		{
 			title: "Cvsu Website",
-			description: "This Project is make a website for our school.",
+			description: "This project is a website for Cavite State University Bacoor Campus. We use HTML, CSS and Javascript for this project.",
 			logo: "cvsu1.png",
 			linkText: "View Project",
 			link: "https://github.com/Ajiiiiiii111/cvsuwebsite111",
@@ -47,7 +47,7 @@ const INFO = {
 
 		{
 			title: "Zyntax",
-			description: "This Project is make a It Company Website.",
+			description: "This project is a website for Zyntax, a IT company. We use HTML, CSS and Javascript for this project.",
 			logo: "zyntax.png",
 			linkText: "View Project",
 			link: "https://l.facebook.com/l.php?u=https%3A%2F%2Fpichapie234.github.io%2FZyntaxx%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2ncgX6-TfqF2MumZ9T6OdyNLa5yS7v9bxLQQufyxp0YUke_XxSOaWkanQ_aem_24FDMHoRkvvT5Wcb-BPzag&h=AT0vTsqB_LU98OwCZYxgBE4Kojsb6ZTj1ZIPOGLIOLKNj6g2PnxUJ_90kNvhQvq5Rn7TGR7RyYeG42fZ_NuwCCgtn0NXIMocB1hhQssv6Hz4PnqwDMcVjzGVuHA5-GR4i8B2h-7x3BIdSxWJVpbtpw",
@@ -55,7 +55,7 @@ const INFO = {
 
 		{
 			title: "Zen Store",
-			description: "This project is Inventory Management System.",
+			description: "This project is Inventory Management System for a grocery store. We use Java both frontend and backend and MySQL to build this project.",
 			logo: "zen.jpg",
 			linkText: "View Project",
 			link: "https://github.com",
@@ -63,7 +63,7 @@ const INFO = {
 
 		{
 			title: "Michiel's Beauty",
-			description: "This project is Inventory Management System.",
+			description: "This project is Inventory Management System for a beauty cosmetics. We use Java and MySQL to build this project.",
 			logo: "mc.png",
 			linkText: "View Project",
 			link: "https://github.com",
@@ -71,7 +71,7 @@ const INFO = {
 
 		{
 			title: "Enrollment System",
-			description: "This project is for our school enrollment System.",
+			description: "This project is for our school enrollment. We use node.js and MySQL Workbench to build this project.",
 			logo: "enrollment.png",
 			linkText: "View Project",
 			link: "https://github.com/jeraldlabalan/Enrollment-System",
@@ -79,7 +79,7 @@ const INFO = {
 		{
 			title: "Finding NeedMo",
 			description:
-				"This project is a a repository for teachers and students.",
+				"This project is a repository for teachers and students. We use",
 			logo: "finding.png",
 			linkText: "View Project",
 			link: "https://github.com/jeraldlabalan/finding-needmo-project",
@@ -87,7 +87,7 @@ const INFO = {
 		{
 			title: "Case Reporting System",
 			description:
-				"This project is a Case reporting in school violation.",
+				"This project is a Case reporting in school violation. It is a web application that allows students to report cases of school violations. It is built using HTML, CSS, and PHP.",
 			logo: "case.png",
 			linkText: "View Project",
 			link: "https://github.com/Ajiiiiiii111/Case-Reporting",

@@ -71,7 +71,7 @@ const Challenge = () => {
 						<div className="title projects-title">My Challenges</div>
 
 						<div className="subtitle projects-subtitle">
-							Explore a series of self-improvement challenges designed to build your discipline, skills, and well-being. Whether it's coding, fitness, reading, or mindfulness—you'll find a challenge that fits your goals!
+							Explore a series of self-improvement challenges designed to build your discipline, skills, and well-being. Whether it's coding, fitness, reading, or mindfulness, you'll find a challenge that fits your goals!
 						</div>
 
 						<div className="challenge">

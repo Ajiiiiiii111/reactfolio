@@ -25,6 +25,7 @@
 .challenge-item h2 {
 	color: rgb(8, 90, 231);
 	margin-bottom: 10px;
+	font-size: 20px;
 }
 
 .challenge-item p {
@@ -33,4 +34,43 @@
 	margin-bottom: 20px;
 }
 
+/* ----------- Responsive Enhancements ----------- */
+@media (max-width: 768px) {
+	.challenge {
+		padding: 20px;
+		margin-top: 40px;
+		gap: 15px;
+	}
 
+	.challenge-item {
+		padding: 15px;
+	}
+
+	.challenge-item h2 {
+		font-size: 18px;
+	}
+
+	.challenge-item p {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 480px) {
+	.challenge {
+		padding: 15px;
+		margin-top: 30px;
+		gap: 12px;
+	}
+
+	.challenge-item {
+		padding: 12px;
+	}
+
+	.challenge-item h2 {
+		font-size: 16px;
+	}
+
+	.challenge-item p {
+		font-size: 12px;
+	}
+}

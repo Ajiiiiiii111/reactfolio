@@ -1,94 +1,57 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
 import "./styles/navBar.css";
 
-const NavBar = (props) => {
-	const { active } = props;
+const NavBar = ({ active }) => {
+	const [menuOpen, setMenuOpen] = useState(false);
+	const toggleMenu = () => setMenuOpen(!menuOpen);
+
+	const links = [
+		{ path: "/", name: "home" },
+		{ path: "/about", name: "about" },
+		{ path: "/skills", name: "skills" },
+		{ path: "/projects", name: "projects" },
+		{ path: "/challenges", name: "challenges" },
+		{ path: "/plans", name: "plans" },
+		{ path: "/resume", name: "resume" },
+		{ path: "/contact", name: "contact" },
+	];
 
 	return (
-		<React.Fragment>
-			<div className="nav-container">
-				<nav className="navbar">
-					<div className="nav-background">
-						<ul className="nav-list">
+		<div className="nav-container">
+			<nav className="navbar">
+				<div className="nav-background">
+					<ul className="nav-list">
+						{links.map(({ path, name }) => (
 							<li
-								className={
-									active === "home"
-										? "nav-item active"
-										: "nav-item"
-								}
+								key={name}
+								className={`nav-item ${active === name ? "active" : ""}`}
 							>
-								<Link to="/">Home</Link>
+								<Link to={path}>{name.charAt(0).toUpperCase() + name.slice(1)}</Link>
 							</li>
-							<li
-								className={
-									active === "about"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/about">About</Link>
-							</li>
-							<li
-								className={
-									active === "skills"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/skills">Skills</Link>
-							</li>
-							<li
-								className={
-									active === "projects"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/projects">Projects</Link>
-							</li>
-							<li
-								className={
-									active === "challenges"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/challenges">Challenges</Link>
-							</li>
-							<li
-								className={
-									active === "plans"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/plans">Plans</Link>
-							</li>
-							<li
-								className={
-									active === "resume"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/resume">Resume</Link>
-							</li>
-							<li
-								className={
-									active === "contact"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/contact">Contact</Link>
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</div>
-		</React.Fragment>
+						))}
+					</ul>
+				</div>
+
+				{/* Hamburger visible only on mobile */}
+				<button className="hamburger" onClick={toggleMenu}>
+					☰
+				</button>
+
+				{/* Mobile dropdown menu */}
+				<ul className={`mobile-nav-list ${menuOpen ? "show" : ""}`}>
+					{links.map(({ path, name }) => (
+						<li
+							key={name}
+							className={`nav-item ${active === name ? "active" : ""}`}
+							onClick={() => setMenuOpen(false)}
+						>
+							<Link to={path}>{name.charAt(0).toUpperCase() + name.slice(1)}</Link>
+						</li>
+					))}
+				</ul>
+			</nav>
+		</div>
 	);
 };
 

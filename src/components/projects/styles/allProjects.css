@@ -15,8 +15,16 @@
 	overflow: hidden;
 }
 
+/* Medium screens (tablets, small laptops) */
+@media (max-width: 900px) {
+	.all-projects-project {
+		width: calc(100% / 2); /* 2 columns */
+	}
+}
+
+/* Small screens (phones) */
 @media (max-width: 600px) {
 	.all-projects-project {
-		width: calc(100% / 2);
+		width: 100%; /* 1 column */
 	}
 }

@@ -128,7 +128,7 @@
 
 .title-works h2 {
     text-align: center;
-    color: rgb(94, 132, 197);
+  
 
 }
 
@@ -151,6 +151,7 @@
 
 .header-hobbies {
     text-align: center;
+
 }
 
 .hobby-items {
@@ -255,7 +256,36 @@
 	}
 }
 
+@media (max-width: 900px) {
+    .works {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    }
+}
+
 @media (max-width: 600px) {
+ 
+}
+
+
+@media (max-width: 600px) {
+
+
+    .hobby-items {
+        grid-template-columns: 1fr; /* 1 column on phones */
+        gap: 15px;
+        padding: 0 10px;
+    }
+	   .title-works h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .works {
+        grid-template-columns: 1fr; /* 1 column on phones */
+        gap: 15px;
+        padding: 0 10px;
+    }
+
 	.about-container {
 		padding-top: 60px;
 	}

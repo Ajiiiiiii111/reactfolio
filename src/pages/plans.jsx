@@ -72,7 +72,7 @@ const FuturePlans = () => {
 					<div className="projects-container">
 						<div className="title projects-title">My Future Plans</div>
 						<div className="subtitle projects-subtitle">
-							As I step into life after graduation, these are the goals that guide my journey — both professionally and personally.
+							As I step into life after graduation, these are the goals that guide my journey for both professionally and personally.
 						</div>
 
 						<div className="plans-list">
